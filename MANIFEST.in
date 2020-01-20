@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include er_customs *.css
+recursive-include er_customs *.csv
+recursive-include er_customs *.html
+recursive-include er_customs *.ico
+recursive-include er_customs *.js
+recursive-include er_customs *.json
+recursive-include er_customs *.md
+recursive-include er_customs *.png
+recursive-include er_customs *.py
+recursive-include er_customs *.svg
+recursive-include er_customs *.txt
+recursive-exclude er_customs *.pyc
