@@ -44,11 +44,11 @@ frappe.ui.form.on('Address', {
       },
       callback(r) {
         const data = r.message
-        frm.doc.address_line1 = data.address_line1
-        frm.doc.county = data.county
-        frm.doc.pincode = data.pincode
-        frm.doc.city = data.city
-        frm.doc.state = data.state
+        frm.doc.address_line1 = `${data.logradouro}, ${data.numero}`
+        frm.doc.county = data.bairro
+        frm.doc.pincode = data.cep
+        frm.doc.city = data.municipio
+        frm.doc.state = data.uf
         frm.refresh()
         frappe.show_alert({
           message: 'Operação concluídaaa!',
