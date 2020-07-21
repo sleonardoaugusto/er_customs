@@ -51,7 +51,7 @@ frappe.ui.form.on('Address', {
         frm.doc.state = data.uf
         frm.refresh()
         frappe.show_alert({
-          message: 'Operação concluídaaa!',
+          message: 'Operação concluída!',
           indicator: 'green'
         })
       }
