@@ -58,6 +58,8 @@ fixtures = [
              'Quotation Item-prazo_de_entrega_em_dias',
              'Quotation-workflow_state',
              'Sales Order-emenda_reason',
+             'Sales Order-cnpj',
+             'Sales Order-segmento',
          )
      ]]
      }
